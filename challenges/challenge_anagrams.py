@@ -47,4 +47,6 @@ def partition(array, start, end):
     return delimiter + 1
 
 
-# REF: https://panda.ime.usp.br/panda/static/pythonds_pt/02-AnaliseDeAlgoritmos/ExemploDeDeteccaoDeAnagramas.html#:~:text=Um%20bom%20exemplo%20de%20problema,e%20'roma'%20s%C3%A3o%20anagramas.
+# REF: https://panda.ime.usp.br/panda/static/pythonds_pt/02-AnaliseDeAlgori
+# tmos/ExemploDeDeteccaoDeAnagramas.html#:~:text=Um%20bom%20exemplo%20de%20
+# problema,e%20'roma'%20s%C3%A3o%20anagramas.
