@@ -15,12 +15,14 @@ def is_anagram(first_string, second_string):
             equals = False
     return equals
 
+
 def convert_to_ascii_code_array(string):
     string_list = list(string.lower())
     new_list = []
     for char in string_list:
         new_list.append(ord(char))
     return new_list
+
 
 def order_quick(array, start, end):
     if len(array) == 1:
@@ -37,8 +39,8 @@ def partition(array, start, end):
 
     for index in range(start, end):
         if array[index] <= pivot:
-          delimiter = delimiter + 1
-          array[index], array[delimiter] = array[delimiter], array[index]
+            delimiter = delimiter + 1
+            array[index], array[delimiter] = array[delimiter], array[index]
 
     array[delimiter + 1], array[end] = array[end], array[delimiter + 1]
 
